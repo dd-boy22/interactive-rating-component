@@ -155,3 +155,9 @@ h2 {
   font-size: 14px;
   color: hsl(25, 97%, 53%);
 }
+
+.btn.selected {
+    background-color: #fff;
+    color: hsl(213, 19%, 25%);
+    font-weight: 700;
+}

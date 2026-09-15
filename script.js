@@ -9,8 +9,14 @@ let selectedRating;
 
 ratings.forEach(function (rating) {
   rating.addEventListener("click", function () {
+    ratings.forEach(function (rating) {
+      rating.classList.remove("selected");
+    }
+
     selectedRating = rating.textContent;
     console.log(rating.textContent);
+
+    rating.classList.add("selected");
 
     result.textContent = `You selected ${selectedRating}  out of 5`;
   });
