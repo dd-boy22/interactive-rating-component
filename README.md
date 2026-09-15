@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/dd-boy22/interactive-rating-component.git)
+- Live Site URL: [Add live site URL here](https://interactive-rating-component-1y4khli9n-eadafe-davids-projects.vercel.app)
 
 ## My process
 
