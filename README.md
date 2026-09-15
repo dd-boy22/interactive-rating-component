@@ -28,6 +28,7 @@ Users should be able to:
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
+- See an error message if they try to submit without selecting a rating
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
@@ -65,6 +66,8 @@ To see how you can add code snippets, see below:
 - Using template literals to display the selected rating
 - Using style.display to hide and show elements
 - Using JavaScript to switch between the rating card and the thank-you state
+- Using `if` and `else` statements to validate user input
+- - Displaying an error message when no rating has been selected
 
 For example, I used JavaScript to store the rating selected by the user and display it:
 

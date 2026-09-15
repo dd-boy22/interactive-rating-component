@@ -150,3 +150,8 @@ h2 {
 .thank-you2 {
   display: none;
 }
+
+.error {
+  font-size: 14px;
+  color: hsl(25, 97%, 53%);
+}
