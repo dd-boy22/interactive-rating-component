@@ -11,7 +11,7 @@ ratings.forEach(function (rating) {
   rating.addEventListener("click", function () {
     ratings.forEach(function (rating) {
       rating.classList.remove("selected");
-    }
+    });
 
     selectedRating = rating.textContent;
     console.log(rating.textContent);
