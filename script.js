@@ -22,6 +22,7 @@ ratings.forEach(function (rating) {
   });
 });
 
+//comments
 submit.addEventListener("click", function () {
   if (selectedRating) {
     ratingContainer.style.display = "none";
