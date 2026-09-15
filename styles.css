@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(213, 19%, 18%);
+  width: 350px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.star-area {
+  width: 22px;
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.star {
+  position: relative;
+  left: 3px;
+  top: 2px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.con-p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  margin: 5px;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 25%);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(213, 19%, 25%);
+  font-weight: 700;
+}
+
+.btn:active {
+  background-color: hsl(0, 100%, 100%);
+}
+
+.sub-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-btn {
+  cursor: pointer;
+  padding: 13px 140px;
+  border-radius: 100px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Overpass", sans-serif;
+  color: hsl(213, 19%, 18%);
+}
+
+.sub-btn:active {
+  background-color: #fff;
+}
+
+.thank-you {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(213, 19%, 18%);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ty-img {
+  padding-top: 10px;
+  width: 120px;
+}
+
+.rt-p {
+  margin: 10px;
+  font-size: 13px;
+}
+
+.rt-pp {
+  background-color: hsl(213, 19%, 25%);
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.ty-h {
+  margin-top: -3px;
+}
+
+.ty-p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px;
+  margin-top: -10px;
+}
+
+.thank-you2 {
+  display: none;
+}
